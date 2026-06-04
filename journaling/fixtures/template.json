@@ -1,0 +1,101 @@
+[
+  {
+    "model": "journaling.journaltemplate",
+    "pk": 1,
+    "fields": {
+      "name": "Deep Daily Reflection",
+      "is_public": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 1,
+    "fields": {
+      "template": 1,
+      "text": "What are three things I am grateful for today?",
+      "order": 1
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 2,
+    "fields": {
+      "template": 1,
+      "text": "What is one thing I accomplished, no matter how small?",
+      "order": 2
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 3,
+    "fields": {
+      "template": 1,
+      "text": "What is one thing I could have done better?",
+      "order": 3
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 4,
+    "fields": {
+      "template": 1,
+      "text": "What was the biggest challenge I faced today?",
+      "order": 4
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 5,
+    "fields": {
+      "template": 1,
+      "text": "How did I handle that challenge?",
+      "order": 5
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 6,
+    "fields": {
+      "template": 1,
+      "text": "What made me smile or laugh today?",
+      "order": 6
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 7,
+    "fields": {
+      "template": 1,
+      "text": "Did I take care of my physical health today? (Sleep, water, movement)",
+      "order": 7
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 8,
+    "fields": {
+      "template": 1,
+      "text": "How did I connect with or help others today?",
+      "order": 8
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 9,
+    "fields": {
+      "template": 1,
+      "text": "What is one new thing I learned or realized today?",
+      "order": 9
+    }
+  },
+  {
+    "model": "journaling.question",
+    "pk": 10,
+    "fields": {
+      "template": 1,
+      "text": "What is my main focus or goal for tomorrow?",
+      "order": 10
+    }
+  }
+]
