@@ -49,6 +49,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
+    "https://hesna.netlify.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
